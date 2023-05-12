@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+
+  background-color: #f9f4ef;
+}
+
+.first-section-container {
+  padding: 22px 0px;
+  text-align: center;
+}
+.first-section-container h1 {
+  font-size: 2.4em;
+  display: inline-block;
+  border-bottom: 1px solid #716040;
+  margin: 0px 18px 5.76px;
+}
+
+.name-text {
+  color: #716040;
+  margin: 0px;
+  font-size: 1.1em;
+}
+
+.image-container {
+  width: auto;
+  background-color: #eaddcf;
+  padding: 48px 24px 24px;
+  margin: 2em auto 1em;
+  text-align: center;
+}
+
+.image-text {
+  text-align: center;
+  margin-top: 24px;
+  padding: 0px 16px;
+  color: #716040;
+  font-size: 1em;
+  background-color: #eaddcf;
+}
+
+#tribute-image {
+  height: auto;
+  max-width: 100%;
+  border: 1px solid #020826;
+  border-radius: 4px;
+}
+
+.time {
+  font-weight: 700;
+}
+
+.second-section-container h3 {
+  text-align: center;
+  font-size: 1.8rem;
+  font-family: "Times New Roman", Times, serif;
+  color: #020826;
+  font-weight: 400;
+  margin: 0px 0px 40px 0px;
+}
+
+.list-content * {
+  text-align: justify;
+  color: #716040;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+.list-content {
+  margin: 48px 0px;
+  padding: 0px 64px;
+}
+
+.end-texts {
+  text-align: center;
+  color: #716040;
+  font-size: 1em;
+  font-family: "Times New Roman", Times, serif;
+  margin: 32px 64px;
+
+  border-top: 1px solid #716040;
+}
+
+.end-texts :nth-child(1) {
+  margin-bottom: 8px;
+}
+.end-texts :nth-child(2) {
+  font-style: italic;
+  margin: 0px 0px 8px;
+}
+
+.footer {
+  font-weight: 700;
+  padding: 24px;
+  background-color: #eaddcf;
+  margin: 0px;
+  text-align: center;
+  color: #716040;
+  font-size: 0.9em;
+}
+.span-text {
+  color: #f25042;
+  font-size: 0.9em;
+}
+
+@media screen and (min-width: 560px) {
+  .first-section-container h1 {
+    font-size: 2.8em;
+  }
+
+  .name-text {
+    font-size: 1.3em;
+  }
+
+  .image-container {
+    width: auto;
+    padding: 64px 64px 24px;
+  }
+
+  .image-text {
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .first-section-container h1 {
+    font-size: 3em;
+  }
+
+  .image-container {
+    padding: 80px 80px 48px;
+  }
+
+  .name-text {
+    font-size: 1.5em;
+  }
+
+  #tribute-image {
+    max-width: min(100%, 900px);
+  }
+
+  .image-text {
+    font-size: 1em;
+    padding: 0px 16px;
+    margin: 16px auto 0px;
+    max-width: 720px;
+  }
+
+  .second-section-container {
+    max-width: 700px;
+    margin: auto;
+  }
+
+  .end-texts {
+    max-width: 590px;
+    margin: auto;
+  }
+
+  .end-texts :nth-child(2) {
+    margin-bottom: 32px;
+  }
+}
